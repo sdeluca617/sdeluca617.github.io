@@ -1,0 +1,60 @@
+/* CSS DOCUMENT */
+
+body {
+    background-color: #CBE3F5;
+    margin: 1.5em;
+}
+
+h1 {
+    color: #3179AD;
+    font-family: serif;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #3179AD;
+    font-family: sans-serif;
+    text-align: center
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family:sans-serif;
+}
+
+h4 {
+    font-family:serif;
+    padding: 1.2em 0 0;
+}
+
+p {
+    color:black;
+    font-family:serif;
+    padding: 0 1.15em 0 0;
+}
+
+p.lastprice {
+    padding: 0 0 1.5em;
+}
+
+ul {
+    background-color: white;
+    margin: 0 1em 1em;
+}
+
+.appetizers {
+    color: #A8A776;
+}
+
+.salads {
+    color:#C2BE25;
+}
+
+.entrees {
+    color: #F53636;
+}
+
+.desserts {
+    color:#F5979E;
+}
