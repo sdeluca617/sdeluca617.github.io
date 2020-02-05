@@ -1,0 +1,56 @@
+/*CSS DOCUMENT*/
+
+body {
+    background-color: #E0D0C1;
+}
+
+img {
+    width: 50%;
+    padding: 0 5em;
+}
+
+h1 {
+    color:#E68225;
+    text-align: center;
+    width: 60%;
+    font-family: sans-serif
+}
+
+h2 {
+    color:#70553C;
+    text-align: center;
+    width: 60%;
+    font-family: sans-serif
+}
+
+div.intro p {
+    width: 60%;
+    padding: 0 0 0 1em;
+}
+
+h3 {
+    font-family: sans-serif;
+    color:#70553C;
+}
+
+div.ingredients {
+    width: 23%;
+    padding: 0 1.5em 0 1em;
+
+    float:left; 
+}
+
+div.directions {
+    width: 35%;
+    float: left;
+} 
+
+footer {
+    float:none;
+    clear:both;
+    text-align: center;
+    width: 60%;
+    padding: 1em 0;
+    color:#A69A8F;
+}
+
