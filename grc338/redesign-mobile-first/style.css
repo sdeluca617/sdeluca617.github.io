@@ -1,0 +1,81 @@
+/* CSS DOCUMENT */
+
+body{
+    background-color: rgb(275,275,275);
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    color:#614731;
+    text-align: center;
+}
+
+h3 {
+    color:#AD682F;
+}
+
+.popular, .melts, .lunch, .salads, .breakfast, .bagels, .creamcheese, .drinks {
+    margin: 2em 0;
+}
+
+a{
+    text-decoration: none;
+    color:#AD682F;
+}
+
+a:hover{
+    color:#613A1A;
+}
+
+.menu li{
+    float:left;
+    padding: 0 1em 1em;
+}
+
+.menu{
+    float:right;
+    clear:both;
+    margin: 0 0 1em 12em;
+}
+
+.menu ul, .maincontent ul{
+    list-style-type: none;
+}
+
+.maincontent li{
+    float:left;
+    padding: 0 1.5em 0 0;
+}
+
+h4 {
+    margin: 0; 
+    color:#E0863D;
+}
+
+.maincontent p{
+    margin: 0.4em 0 1.2em 0;
+}
+
+.fullmenu p {
+    margin: 0.4em 0 0.4em 0;
+}
+
+.fullmenu li{
+    padding: 0.5em 0;
+}
+
+.header{
+    margin: 1em 0 0 0;
+}
+
+.contact{
+    text-align: center;
+    margin: 4em 0 0 0;
+}
+
+.contact p {
+    margin: 0 0 0.5em 0;
+}
