@@ -1,0 +1,126 @@
+/* CSS DOCUMENT */
+
+body{
+    background-color: rgb(275,275,275);
+}
+
+img{
+    width: 100%;
+}
+
+.center{
+  display: block;
+    margin-top: 6em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+    max-width: 25em;
+}
+
+h2{
+    color:#614731;
+    text-align: center;
+}
+
+h3 {
+    color:#AD682F;
+}
+
+.maincontent h3{
+    text-align: center
+}
+
+.items {
+    margin: 2em;
+}
+
+/* The navigation bar */
+.menu {
+  overflow: hidden;
+  background-color: #613A1A;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.menu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-size: 14pt;
+}
+
+/* Change background on mouse-over */
+.menu a:hover {
+  background: #FAE9DB;
+  color: #E0863D;
+}
+
+/* Main content */
+.maincontent, .fullmenu, .contact {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.menu ul, .maincontent ul{
+    list-style-type: none;
+}
+
+.maincontent li{
+    padding: 0 2.6em 0 0;
+    text-align: center;
+}
+
+h4 {
+    margin: 0; 
+    color:#E0863D;
+}
+
+.maincontent p{
+    margin: 0.4em 0 1.2em 0;
+}
+
+.maincontent{
+    margin: 2em;
+}
+
+.fullmenu p {
+    margin: 0.4em 0 0.4em 0;
+}
+
+.fullmenu li{
+    padding: 0.5em 0;
+}
+
+
+.contact{
+    text-align: center;
+    margin: 4em 0 0 0;
+}
+
+.contact p {
+    margin: 0 0 0.5em 0;
+}
+
+@media only screen and (min-width:35em) {
+    div.items{
+        width: 40%;
+        float: left;
+        margin: 1.5em;
+    }
+    div.maincontent{
+        max-width: 30em;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width: 50em) {
+      div.items{
+        width: 25%;
+          margin: 2em;
+    }
+}
